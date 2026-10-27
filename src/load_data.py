@@ -1,7 +1,5 @@
-from pyspark.sql import DataFrame, SparkSession, Column
+from pyspark.sql import DataFrame, SparkSession
 from pyspark.sql import functions as F
-from pyspark.sql.types import DateType, DoubleType
-from pyspark.sql.window import Window
 import re
 
 # Instantiate a new Spark Session\
